@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.titulo {
+  text-align: left;
+  font-size: 2.25rem; /* tamaño aumentado aprox 50% */
+  font-weight: bold;
+  /* color: #4F0087; */
+  margin-bottom: 20px;
+}
+.linea-separadora {
+  width: 90%; /* casi del mismo ancho que las tarjetas */
+  max-width: 900px; /* limita su largo para pantallas grandes */
+  border: none;
+  border-top: 3px solid #000000; /* grosor y color */
+  margin: 0 auto 25px 0; /* deja un pequeño espacio abajo, alineado a la izquierda */
+}
