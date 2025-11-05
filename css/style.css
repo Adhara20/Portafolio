@@ -5,6 +5,15 @@
   /* color: #4F0087; */
   margin-bottom: 20px;
 }
+.subTitulo {
+  text-align: left;
+  text-shadow: 2px 2px 3px #6f96de;
+  font-size: 2rem; /* tamaño aumentado aprox 50% */
+  font-weight: bold;
+  /* color: #4F0087; */
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
 .linea-separadora {
   width: 100%; /* casi del mismo ancho que las tarjetas */
   max-width: 1500px; /* limita su largo para pantallas grandes */
@@ -12,3 +21,58 @@
   border-top: 3px solid #000000; /* grosor y color */
   margin: 0 auto 25px 0; /* deja un pequeño espacio abajo, alineado a la izquierda */
 }
+.linea-separadora2 {
+  width: 100%; /* casi del mismo ancho que las tarjetas */
+  max-width: 1500px; /* limita su largo para pantallas grandes */
+  border: none;
+  border-top: 2px solid #0f048b; /* grosor y color */
+  margin: 0 auto 25px 0; /* deja un pequeño espacio abajo, alineado a la izquierda */
+  margin-top: 40px;
+}
+.buttonEjecutar {
+  background-color: #d3b88c; /* Café */
+  color: #0f048b;
+  padding: 10px 20px;
+  border: 2px solid #0f048b ;/*0f048b*/
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #0f048b;
+  font-weight: bold;
+}
+
+.buttonEjecutar:hover {
+  background-color: #0c6e7d; /* Café más oscuro */
+  color: #d3b88c;
+  border: 2px solid #d3b88c ;
+}
+.tarjeta {
+  background-color: white;
+  border: 2px solid #d3b88c;
+  border-radius: 10px;
+  padding: 1cm;            /* Espacio interno */
+  margin: 0.5cm;           /* Espacio entre tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* 🔹 Cálculo basado en 10 “columnas” imaginarias */
+  width: calc(100% / 10 * 4);    /* Cada tarjeta ocupa 4 columnas */
+  margin-left: calc(100% / 10 * 0.5);  /* Margen lateral izquierdo */
+  margin-right: calc(100% / 10 * 0.5); /* Margen lateral derecho */
+
+  /* 🔹 Límites para pantallas pequeñas */
+  max-width: 600px;
+  min-width: 250px;      /* Evita que se encojan demasiado */
+}
+.tarjeta-contenedor {
+  display: flex;
+  flex-wrap: wrap;          /* Para que bajen a otra línea si no caben */
+  justify-content: center;  /* Centra las cartas */
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 2px rgb(183, 183, 184);
+  margin-bottom: 30px;
+  
+}
+
+
