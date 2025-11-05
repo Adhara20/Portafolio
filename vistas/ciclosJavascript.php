@@ -8,7 +8,29 @@ include('../includes/menu.php');
     Ejercicios De Repetición JavaScript
   </h1>
   <hr class="linea-separadora">
-  <!-- resto del contenido -->
+  <!-- contenido -->
+  <div class="tarjeta-contenedor">
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar button:hover">Ejecutar</button>
+  </div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar button:hover">Ejecutar</button>
+  </div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar button:hover">Ejecutar</button>
+  </div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar button:hover">Ejecutar</button>
+  </div>
+</div>
 </div>
 <?php
 include('../includes/footer.php');
