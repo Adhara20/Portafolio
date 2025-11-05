@@ -5,12 +5,29 @@
   /* color: #4F0087; */
   margin-bottom: 20px;
 }
+.subTitulo {
+  text-align: left;
+  text-shadow: 2px 2px 3px #6f96de;
+  font-size: 2rem; /* tamaño aumentado aprox 50% */
+  font-weight: bold;
+  /* color: #4F0087; */
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
 .linea-separadora {
   width: 100%; /* casi del mismo ancho que las tarjetas */
   max-width: 1500px; /* limita su largo para pantallas grandes */
   border: none;
   border-top: 3px solid #000000; /* grosor y color */
   margin: 0 auto 25px 0; /* deja un pequeño espacio abajo, alineado a la izquierda */
+}
+.linea-separadora2 {
+  width: 100%; /* casi del mismo ancho que las tarjetas */
+  max-width: 1500px; /* limita su largo para pantallas grandes */
+  border: none;
+  border-top: 2px solid #0f048b; /* grosor y color */
+  margin: 0 auto 25px 0; /* deja un pequeño espacio abajo, alineado a la izquierda */
+  margin-top: 40px;
 }
 .buttonEjecutar {
   background-color: #d3b88c; /* Café */
@@ -49,6 +66,13 @@
   display: flex;
   flex-wrap: wrap;          /* Para que bajen a otra línea si no caben */
   justify-content: center;  /* Centra las cartas */
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 2px rgb(183, 183, 184);
+  margin-bottom: 30px;
+  
 }
 
 
