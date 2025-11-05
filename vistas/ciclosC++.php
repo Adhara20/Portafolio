@@ -9,6 +9,8 @@ include('../includes/menu.php');
   </h1>
   <hr class="linea-separadora">
   <!-- resto del contenido -->
+
+  
 </div>
 <?php
 include('../includes/footer.php');
