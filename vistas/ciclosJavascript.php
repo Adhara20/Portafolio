@@ -19,7 +19,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -27,7 +27,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -35,7 +35,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
       <br>
-       <button class="buttonEjecutar button:hover">Ejecutar</button>
+       <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -43,7 +43,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   
 </div>
@@ -57,7 +57,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -65,7 +65,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -73,7 +73,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
       <br>
-       <button class="buttonEjecutar button:hover">Ejecutar</button>
+       <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
@@ -81,7 +81,7 @@ include('../includes/menu.php');
        mejorar habilidades y descubrir caminos inesperados. La paciencia, el 
        esfuerzo y la curiosidad son las claves del crecimiento personal y profesional.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/carpeta/ejercicio.html'">
   </div>
   
 </div>

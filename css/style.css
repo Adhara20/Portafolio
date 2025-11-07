@@ -51,7 +51,7 @@
   border-radius: 10px;
   padding: 1cm;            /* Espacio interno */
   margin: 0.5cm;           /* Espacio entre tarjetas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(79, 0, 135, 0.3);
 
   /* 🔹 Cálculo basado en 10 “columnas” imaginarias */
   width: calc(100% / 10 * 4);    /* Cada tarjeta ocupa 4 columnas */
@@ -74,5 +74,6 @@
   margin-bottom: 30px;
   
 }
+
 
 

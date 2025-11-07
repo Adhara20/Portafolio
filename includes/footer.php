@@ -1,5 +1,5 @@
 <!-- Gris claro -->
- <link rel="stylesheet" href="../css/output.css">
+ <!-- <link rel="stylesheet" href="../css/output.css"> -->
 <footer class="bg-gray-200 text-gray-800 text-center py-4 mt-auto shadow-inner">
   <p class="text-sm" style="color: #0f048b">&copy; <?= date('Y'); ?> Todos los derechos reservados</p>
 </footer>
