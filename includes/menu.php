@@ -24,6 +24,7 @@
         <a href="/Portafolio/vistas/basicosJava.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
         <a href="/Portafolio/vistas/selectivasJava.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
         <a href="/Portafolio/vistas/ciclosJava.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
+        <a href="/Portafolio/vistas/arreglos.php" class="px-4 py-2 hover:bg-gray-100">Arreglos</a>
       </div>
     </div>
 
@@ -63,6 +64,7 @@
       <a href="/Portafolio/vistas/basicosJava.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
       <a href="/Portafolio/vistas/selectivasJava.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
       <a href="/Portafolio/vistas/ciclosJava.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
+      <a href="/Portafolio/vistas/arreglos.php" class="px-4 py-2 hover:bg-gray-100">Arreglos</a>
     </div>
     <!-- JavaScript Móvil-->
     <button id="btn-submenu-js" class="block py-2 text-gray-800 hover:text-[#26408b] w-full text-left lg:hidden">
