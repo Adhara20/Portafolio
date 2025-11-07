@@ -11,14 +11,18 @@ include('../includes/menu.php');
   <!-- resto del contenido -->
    <div class="tarjeta-contenedor">
   <div class="tarjeta">
-    <p></p>
+    <p>1.- Dada la matricula y 5 calificaciones de un alumno obtenidas a lo largo del
+    cuatrimestre, construya un programa que imprima la matrícula del alumno y
+    el promedio de sus calificaciones.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar button:hover" href="../Basicos_JS_EJECUTABLES/Ejercicio1.html">Ejecutar</button>
   </div>
+
   <div class="tarjeta">
-    <p></p>
+    <p>2.- . Escriba un programa que permita calcular e imprimir el cuadrado y el cubo
+      de un número entero positivo.</p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar button:hover" href="../Basicos_JS_EJECUTABLES/Ejercicio2.html">Ejecutar</button>
   </div>
   <div class="tarjeta">
     <p></p>
