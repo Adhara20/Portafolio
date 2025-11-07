@@ -9,7 +9,8 @@ include('../includes/menu.php');
   </h1>
   <hr class="linea-separadora">
   <!-- resto del contenido -->
-
+   <!-- PDF profe -->
+  <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicios del Profesor</h2>
   <!-- inicio del pdf -->
   <object data="../pdf/ESTRUCTURAS_SELECTIVAS_c++.pdf" type="application/pdf" width="100%" height="600px">
     <p>
@@ -18,6 +19,9 @@ include('../includes/menu.php');
     </p>
   </object>
   <!-- fin del pdf -->
+   <!-- PDF grupo -->
+    <hr class="linea-separadora2">
+    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicios del Profesor</h2>
 </div>
 <?php
 include('../includes/footer.php');

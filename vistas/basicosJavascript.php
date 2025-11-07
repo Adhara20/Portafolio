@@ -15,24 +15,84 @@ include('../includes/menu.php');
     cuatrimestre, construya un programa que imprima la matrícula del alumno y
     el promedio de sus calificaciones.</p>
     <br>
-    <button class="buttonEjecutar button:hover" href="../Basicos_JS_EJECUTABLES/Ejercicio1.html">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio1.html'">
+  Ejecutar
+</button>
+
   </div>
 
   <div class="tarjeta">
     <p>2.- . Escriba un programa que permita calcular e imprimir el cuadrado y el cubo
       de un número entero positivo.</p>
     <br>
-    <button class="buttonEjecutar button:hover" href="../Basicos_JS_EJECUTABLES/Ejercicio2.html">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio2.html'">
+  Ejecutar
+</button>
+
   </div>
   <div class="tarjeta">
     <p></p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio1.html'">
+  Ejecutar
+</button>
+
   </div>
   <div class="tarjeta">
     <p></p>
     <br>
-    <button class="buttonEjecutar button:hover">Ejecutar</button>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio4.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio5.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio6.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio7.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio8.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio9.html'">
+  Ejecutar
+</button>
+
+</div>
+  <div class="tarjeta">
+    <p></p>
+    <br>
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/Ejercicio10.html'">
+  Ejecutar
+</button>
+
   </div>
 </div>
 </div>
