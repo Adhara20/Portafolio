@@ -49,7 +49,7 @@ include('../includes/menu.php');
 </div>
 <hr class="linea-separadora2">
 <!-- While -->
-   <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicios For</h2>
+   <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicios While</h2>
     <div class="tarjeta-contenedor">
   <div class="tarjeta">
     <p>El aprendizaje constante impulsa la creatividad y fortalece la mente.
