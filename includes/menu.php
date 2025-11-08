@@ -1,3 +1,4 @@
+
 <nav class="fixed top-0 left-0 w-full z-50">
   <!-- Logo y Nombre -->
   <div class="bg-[#26408b] flex justify-between items-center px-6 py-3">
@@ -5,6 +6,7 @@
       <h1 style="font-family: 'Montserrat', sans-serif; color: white; font-size: 24px;">
         Portafolio De Evidencias Cuatrimestre 4
       </h1>
+      
     </div>
     <button id="hamburger" class="text-white text-2xl lg:hidden focus:outline-none">☰</button>
   </div>
@@ -14,6 +16,19 @@
                        lg:justify-end lg:items-center lg:space-x-6 px-6 py-2">
 
     <!-- <a href="index.php" class="block py-2 text-gray-800 hover:text-[#26408b]">Inicio</a> -->
+    <!-- Inicio -->
+    <div class="relative hidden lg:block">
+      <a href="/Portafolio/index.php" 
+         class="block py-2 text-gray-800 hover:text-[#26408b] w-full text-left lg:text-center">
+         Inicio
+      </a>
+    </div>
+    <!-- En pantallas pequeñas -->
+    <button
+      class="block py-2 text-gray-800 hover:text-[#26408b] w-full text-left lg:hidden"
+      onclick="window.location.href='/Portafolio/index.php'">
+      Inicio
+    </button>
 
     <!-- Ejercicios Java -->
     <div class="relative group hidden lg:block">
@@ -25,6 +40,7 @@
         <a href="/Portafolio/vistas/selectivasJava.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
         <a href="/Portafolio/vistas/ciclosJava.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
         <a href="/Portafolio/vistas/arreglos.php" class="px-4 py-2 hover:bg-gray-100">Arreglos</a>
+        <a href="/Portafolio/vistas/listas.php" class="px-4 py-2 hover:bg-gray-100">Listas</a>
       </div>
     </div>
 
@@ -53,6 +69,7 @@
     </div>
 
     <!-- Submenú móvil -->
+     
     <button id="btn-submenu" class="block py-2 text-gray-800 hover:text-[#26408b] w-full text-left lg:hidden">
       Ejercicios Java →
     </button>
@@ -65,6 +82,7 @@
       <a href="/Portafolio/vistas/selectivasJava.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
       <a href="/Portafolio/vistas/ciclosJava.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
       <a href="/Portafolio/vistas/arreglos.php" class="px-4 py-2 hover:bg-gray-100">Arreglos</a>
+      <a href="/Portafolio/vistas/listas.php" class="px-4 py-2 hover:bg-gray-100">Listas</a>
     </div>
     <!-- JavaScript Móvil-->
     <button id="btn-submenu-js" class="block py-2 text-gray-800 hover:text-[#26408b] w-full text-left lg:hidden">
@@ -154,5 +172,4 @@
     offcanvasSubmenuCPP.style.right = '-100%'; // ocultar menú C++
   });
 </script>
-<body class="flex flex-col min-h-screen bg-gray-100 pt-20">
 
