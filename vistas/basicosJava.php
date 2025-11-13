@@ -20,9 +20,9 @@ include('../includes/menu.php');
   <hr class="linea-separadora2">
   <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Propuestas Grupales</h2>
   <!-- inicio del pdf -->
-   <object data="../pdf/Ejercicios Basicos_JAVA.pdf" type="application/pdf" width="100%" height="600px">
+   <object data="../pdf/Programas_Propuestos.pdf.pdf" type="application/pdf" width="100%" height="600px">
     <p>No es posible visualizar el PDF. 
-    <a href="../pdf/Ejercicios Basicos_JAVA.pdf">Descarga el PDF aquí</a>
+    <a href="../pdf/Programas_Propuestos.pdf">Descarga el PDF aquí</a>
     </p>
   </object>
   <!-- fin del pdf -->

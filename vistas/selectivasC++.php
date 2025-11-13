@@ -9,7 +9,7 @@ include('../includes/menu.php');
   </h1>
   <hr class="linea-separadora">
   <!-- resto del contenido -->
-   <!--  -->
+
   <!-- inicio del pdf -->
   <object data="../pdf/ESTRUCTURAS_SELECTIVAS_c++.pdf" type="application/pdf" width="100%" height="600px">
     <p>

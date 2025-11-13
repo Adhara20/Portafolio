@@ -9,34 +9,37 @@ include('../includes/menu.php');
   </h1>
   <hr class="linea-separadora">
   <!-- resto del contenido -->
-    <!-- PDF Profesor -->
+
+    <!-- PDF for -->
    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo For</h2>
-    <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+    <object data="../pdf/for_Java.pdf" type="application/pdf" width="100%" height="600px">
       <p>No es posible visualizar el PDF. 
-      <a href="../pdf/">Descarga el PDF aquí</a>
+      <a href="../pdf/for_Java.pdf">Descarga el PDF aquí</a>
     </p>
   </object>
   <!-- Fin Ciclos For -->
    <hr class="linea-separadora2">
    <!-- Ciclos While -->
     <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo While</h2>
-    <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+    <object data="../pdf/while_Java.pdf" type="application/pdf" width="100%" height="600px">
       <p>No es posible visualizar el PDF. 
-        <a href="../pdf/">Descarga el PDF aquí</a>
+        <a href="../pdf/while_Java.pdf">Descarga el PDF aquí</a>
       </p>
     </object>
     <!-- Fin Ciclos While -->
-     <!-- While -->
+
+
       <hr class="linea-separadora2">
+
       <!-- Ciclos DoWhile -->
     <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo Do While</h2>
-    <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+    <object data="../pdf/dowhile_java.pdf" type="application/pdf" width="100%" height="600px">
       <p>No es posible visualizar el PDF. 
         <a href="../pdf/">Descarga el PDF aquí</a>
       </p>
     </object>
-    <!-- Fin Ciclos While -->
-     <!-- DOWhile -->
+   
+
       
 </div>
 <?php
