@@ -11,16 +11,24 @@ include('../includes/menu.php');
   <!-- resto del contenido -->
    <!-- For -->
    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo For</h2>
-   <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+   <object data="../pdf/for_c++.pdf" type="application/pdf" width="100%" height="600px">
       <p>No es posible visualizar el PDF. 
-        <a href="../pdf/">Descarga el PDF aquí</a>
+        <a href="../pdf/for_c++.pdf">Descarga el PDF aquí</a>
       </p>
     </object>
    <!-- Fin For -->
     <hr class="linea-separadora2">
    <!-- While -->
     <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo While</h2>
-    <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+    <object data="../pdf/while_c++.pdf" type="application/pdf" width="100%" height="600px">
+      <p>No es posible visualizar el PDF. 
+        <a href="../pdf/while_c++">Descarga el PDF aquí</a>
+      </p>
+    </object>
+
+    <hr class="linea-separadora2">
+    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo Do While</h2>
+    <object data="../pdf/dowhile_c++.pdf" type="application/pdf" width="100%" height="600px">
       <p>No es posible visualizar el PDF. 
         <a href="../pdf/">Descarga el PDF aquí</a>
       </p>

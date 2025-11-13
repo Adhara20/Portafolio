@@ -10,21 +10,21 @@ include('../includes/menu.php');
   <hr class="linea-separadora">
   <!-- resto del contenido -->
 <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Arreglos 1</h2>
-  <object data="../pdf/.pdf" type="application/pdf" width="100%" height="600px">
+  <object data="../pdf/ARREGLOS_1.pdf" type="application/pdf" width="100%" height="600px">
     <p>No es posible visualizar el PDF. 
-    <a href="../pdf/.pdf">Descarga el PDF aquí</a>
+    <a href="../pdf/ARREGLOS_1.pdf">Descarga el PDF aquí</a>
     </p>
   </object>
-  <!-- Fin PDF Profesor -->
+
 <hr class="linea-separadora2">
   <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Arreglos 2</h2>
-<!-- PDF Prpuestos -->
-  <object data="/pdf/" type="application/pdf" width="100%" height="600px">
+
+  <object data="../pdf/ARREGLOS_2.pdf" type="application/pdf" width="100%" height="600px">
     <p>No es posible visualizar el PDF. 
-    <a href="/pdf/">Descarga el PDF aquí</a>
+    <a href="../pdf/ARREGLOS_2.pdf">Descarga el PDF aquí</a>
     </p>
   </object>
-  <!-- Fin Propuestos -->
+
 </div>
 
 
