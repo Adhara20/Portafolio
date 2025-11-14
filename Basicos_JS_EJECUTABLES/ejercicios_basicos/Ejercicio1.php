@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,11 @@
     <title>Ejercicio 1 en javascript </title>
 </head>
 <body>
+    <?php
+        include('../includes/header.php');
+        include('../includes/menu.php');
+    ?>
+
     <script>
 
 var mat = prompt("Ingresa tu matrícula")
