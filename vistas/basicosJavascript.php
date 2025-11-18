@@ -17,7 +17,7 @@ include('../includes/menu.php');
     cuatrimestre, construya un programa que imprima la matrícula del alumno y
     el promedio de sus calificaciones.</p>
     <br>
-    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio1.html'">
+    <button class="buttonEjecutar" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio1.php'">
   Ejecutar
   </button>
   </div>
