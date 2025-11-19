@@ -17,37 +17,40 @@
         </h1>
         <hr class="linea-separadora">
         <!-- resto del contenido -->
-        <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicio 1</h2>
-        <p>
+         <div class="pt-5 px-10">
+           <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicio 1</h2>
+            <p>
             1.- Dada la matricula y 5 calificaciones de un alumno obtenidas a lo largo del
             cuatrimestre, construya un programa que imprima la matrícula del alumno y
             el promedio de sus calificaciones.
-        </p>
+            </p> 
+         </div>
+        
     </div>
-    <div class="tarjeta">
+    <div class="tarjeta-codigo">
 
-        <p>
+        <p class=>
             < script> <br>
-            var mat = prompt("Ingresa tu matrícula")
-            var cal1 = parseFloat(prompt("Ingrese la calificación 1"))
-            var cal2 = parseFloat(prompt("Ingrese la calificación 2"))
-            var cal3 = parseFloat(prompt("Ingrese la calificación 3"))
-            var cal4 = parseFloat(prompt("Ingrese la calificación 4"))
-            var cal5 = parseFloat(prompt("Ingrese la calificación 5"))
+            var mat = prompt("Ingresa tu matrícula") <br>
+            var cal1 = parseFloat(prompt("Ingrese la calificación 1")) <br>
+            var cal2 = parseFloat(prompt("Ingrese la calificación 2")) <br>
+            var cal3 = parseFloat(prompt("Ingrese la calificación 3")) <br>
+            var cal4 = parseFloat(prompt("Ingrese la calificación 4")) <br>
+            var cal5 = parseFloat(prompt("Ingrese la calificación 5")) <br>
 
-            var prom = (cal1 + cal2 + cal3 + cal4 + cal5)/5
+            var prom = (cal1 + cal2 + cal3 + cal4 + cal5)/5 <br>
             alert("Matrícula: " + mat + " \n " + "Promedio: " + prom) <br>
-            < /script>
+            < /script> <br>
         </p>
         <br>
-        <div class="grid grid-cols-2 gap-4 mb-4">
-            <div>
+        <div class="grid grid-cols-2 gap-6 mb-6 place-items-center">
+            <div >
                 <button class="buttonEjecutar" onclick="ejecutar()">
                 Ejecutar
                 </button>
             </div>
-            <div>
-                <button class="buttonEjecutar" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.html'">
+            <div >
+                <button class="buttonSiguiente" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
                     siguiente ejercicio
                 </button>
             </div>
