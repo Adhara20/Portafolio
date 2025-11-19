@@ -75,5 +75,36 @@
   
 }
 
+/*Hice este Clase para las tarjetas que contienen el codigo del ejercicio*/
+.tarjeta-codigo {
+  background-color: white;
+  border: 2px solid #d3b88c;
+  border-radius: 10px;
+  padding: 1cm;
+  margin: 0.5cm auto;
+  box-shadow: 0 3px 10px rgba(79, 0, 135, 0.3);
+
+  width: 90%;           
+  max-width: 1200px;
+  min-width: 250px;
+}
+/*estos son solo copy paste del boton de ejecutar, pero para siguiente o anterior ejercicio*/
+.buttonSiguiente {
+  background-color: #0f048b; 
+  color: #d3b88c;
+  padding: 10px 20px;
+  border: 2px solid #d3b88c ;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #d3b88c;
+  font-weight: bold;
+}
+
+.buttonSiguiente:hover {
+  background-color: #0c6e7d; /* Café más oscuro */
+  color: #d3b88c;
+  border: 2px solid #d3b88c ;
+
+}
 
 
