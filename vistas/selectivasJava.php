@@ -9,12 +9,19 @@ include('../includes/menu.php');
   </h1>
   <hr class="linea-separadora">
   <!-- resto del contenido -->
-   <object data="../pdf/ESTRUCTURAS_SELECTIVAS_JAVA.pdf" type="application/pdf" width="100%" height="600px">
-    <p>
-      No es posible visualizar el PDF. 
-      <a href="../pdf/ESTRUCTURAS_SELECTIVAS_JAVA.pdf">Descarga el PDF aquí</a>
+   <!-- PDF -->
+    <embed 
+        src="../pdf/ESTRUCTURAS_SELECTIVAS_JAVA.pdf#zoom=page-width" 
+        type="application/pdf" 
+        width="100%" 
+        height="800px">
+
+    <p class="mt-2">
+        Si no puedes visualizar el PDF, 
+        <a class="text-blue-600 underline" href="../pdf/ESTRUCTURAS_SELECTIVAS_JAVA.pdf" download>
+            descárgalo aquí
+        </a>.
     </p>
-  </object>
 </div>
 <?php
 include('../includes/footer.php');
