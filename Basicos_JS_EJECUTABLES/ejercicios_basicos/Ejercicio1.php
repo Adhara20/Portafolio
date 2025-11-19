@@ -104,12 +104,13 @@
         </div>
         <div class="grid grid-cols-2 gap-4 mb-4 max-w-md mx-auto mt-4"">
             <div>
+
                 <button class="buttonEjecutar" onclick="ejecutar()">
                 Ejecutar
                 </button>
             </div>
-            <div>
-                <button class="buttonEjecutar" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.html'">
+            <div >
+                <button class="buttonSiguiente" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
                     siguiente ejercicio
                 </button>
             </div>
