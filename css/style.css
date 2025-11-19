@@ -75,36 +75,54 @@
   
 }
 
-/*Hice este Clase para las tarjetas que contienen el codigo del ejercicio*/
-.tarjeta-codigo {
+<<<<<<< HEAD
+.tarjeta2 {
   background-color: white;
   border: 2px solid #d3b88c;
   border-radius: 10px;
-  padding: 1cm;
-  margin: 0.5cm auto;
+
+  /* 🔹 Padding MUY pequeño para pantallas chicas */
+  padding: 10px;
+
+  margin: 0.5cm;
   box-shadow: 0 3px 10px rgba(79, 0, 135, 0.3);
 
-  width: 90%;           
-  max-width: 1200px;
+  width: 95%;
+  max-width: 95%;
   min-width: 250px;
-}
-/*estos son solo copy paste del boton de ejecutar, pero para siguiente o anterior ejercicio*/
-.buttonSiguiente {
-  background-color: #0f048b; 
-  color: #d3b88c;
-  padding: 10px 20px;
-  border: 2px solid #d3b88c ;
-  border-radius: 8px;
-  cursor: pointer;
-  border-color: #d3b88c;
-  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.buttonSiguiente:hover {
-  background-color: #0c6e7d; /* Café más oscuro */
-  color: #d3b88c;
-  border: 2px solid #d3b88c ;
+/* 🔹 Pantallas grandes */
+@media (min-width: 1024px) {
+  .tarjeta2 {
+    /* 🔹 Padding reducido (antes 1.3cm → ahora más cómodo) */
+    padding: 35px;
 
+    width: calc(100% / 10 * 6);
+    margin-left: calc(100% / 10 * 0.5);
+    margin-right: calc(100% / 10 * 0.5);
+    max-width: 800px;
+  }
 }
+
+.tarjeta-contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 2px rgb(183, 183, 184);
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
 
 
