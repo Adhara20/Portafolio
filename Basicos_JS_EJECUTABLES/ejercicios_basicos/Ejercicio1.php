@@ -111,7 +111,7 @@
             </div>
             <div >
                 <button class="buttonSiguiente" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
-                    siguiente ejercicio
+                    siguiente 
                 </button>
             </div>
     </div>
