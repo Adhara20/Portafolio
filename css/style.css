@@ -75,6 +75,7 @@
   
 }
 
+
 .tarjeta2 {
   background-color: white;
   border: 2px solid #d3b88c;
@@ -118,6 +119,24 @@
   margin-bottom: 30px;
 }
 
+
+/*Esto es para el boton de siguiente ToT y anterior de una vez*/
+.buttonSiguiente {
+  background-color:#0f048b;  /* Café */
+  color: #d3b88c;
+  padding: 10px 20px;
+  border: 2px solid #d3b88c;/*0f048b*/
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #d3b88c;
+  font-weight: bold;
+}
+
+.buttonSiguiente:hover {
+  background-color: #0c6e7d; /* Café más oscuro */
+  color: #0f048b;
+  border: 2px solid #0f048b;
+}
 
 
 

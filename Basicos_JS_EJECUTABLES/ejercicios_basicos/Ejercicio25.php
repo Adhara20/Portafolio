@@ -1,5 +1,8 @@
 <html>
     <title>Ejercicio 25</title>
+    <p>
+        25.Crear un programa que permita convertir una cantidad de segundos en horas, minutos y segundos
+    </p>
     <script>
         var s = parseFloat(prompt("Ingrese la cantidad en segundos"))
         var  m = s/60, hr = m/60, sm = s%60, mh = m%60
