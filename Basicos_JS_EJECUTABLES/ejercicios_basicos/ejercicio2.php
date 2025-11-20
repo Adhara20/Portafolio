@@ -71,14 +71,16 @@
     </div>
 
    <div class="flex justify-center items-center gap-6 mb-4 mt-4">
-    <button class="buttonSiguiente w-32" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio1.php'">
-        Anterior
+    <button class="buttonSiguiente w-32 flex" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio1.php'">
+    <img src="../../img/iconosBtn/regFlecha.png" alt="siguiente.png" class="size-5 mt-1 mr-1">    
+    Anterior
     </button>
     <button class="buttonEjecutar w-32" onclick="ejecutar()">
         Ejecutar
     </button>
-    <button class="buttonSiguiente w-32" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio3.php'">
+    <button class="buttonSiguiente w-32 flex" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio3.php'">
         Siguiente
+        <img src="../../img/iconosBtn/sigFlecha.png" alt="siguiente.png" class="size-5 mt-1 ml-1">
     </button>
 </div>
 
