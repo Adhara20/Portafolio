@@ -110,9 +110,10 @@
                 </button>
             </div>
             <div >
-                <button class="buttonSiguiente" onclick= "window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
-                    siguiente 
-                </button>
+    <button class="buttonSiguiente w-32 flex" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
+        Siguiente
+        <img src="../../img/iconosBtn/sigFlecha.png" alt="siguiente.png" class="size-5 mt-1 ml-1">
+    </button>
             </div>
     </div>
     <script>
