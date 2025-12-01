@@ -3,28 +3,25 @@ include('../includes/header.php');
 include('../includes/menu.php');
 ?>
 <!-- Asi deben quedar todos los encabezados -->
-<div class="pt-20 px-6 mb-8 ml-8 mr-8">
-  <h1 class="titulo text-3xl text-[#26408b] font-semibold">
-    Ejercicios de Arreglos C++
+<div class="pt-20 px-6 mb-8">
+  <h1 class="titulo text-4xl text-[#26408b] font-semibold text-center">
+    Ejercicios Con Arreglos Java
   </h1>
-  <hr class="linea-separadora">
-  <!-- resto del contenido -->
-<h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Arreglos 1</h2>
-  <object data="../pdf/ARREGLOS_1.pdf" type="application/pdf" width="100%" height="600px">
-    <p>No es posible visualizar el PDF. 
-    <a href="../pdf/ARREGLOS_1.pdf">Descarga el PDF aquí</a>
-    </p>
-  </object>
 
-<hr class="linea-separadora2">
-  <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Arreglos 2</h2>
-
-  <object data="../pdf/ARREGLOS_2.pdf" type="application/pdf" width="100%" height="600px">
-    <p>No es posible visualizar el PDF. 
-    <a href="../pdf/ARREGLOS_2.pdf">Descarga el PDF aquí</a>
-    </p>
-  </object>
-
+  <div class="flex flex-col md:flex-row justify-center items-center gap-32 mt-10">
+    <div class="mx-6 my-6">
+        <a href="/Portafolio/vistas/arreglos1.php">
+          <h2 class="text-center mb-2 text-2xl font-medium">Arreglos Parte 1</h2>
+        <img src="/Portafolio/img/iconosBtn/javaArchivos.png" alt="" class="size-80">
+        </a>
+    </div>
+    <div class="mx-6 my-6">
+      <a href="/Portafolio/vistas/arreglos2.php">
+        <h2 class="text-center mb-2 text-2xl font-medium">Arreglos Parte 2</h2>
+        <img src="/Portafolio/img/iconosBtn/javaArchivos.png" alt="" class="size-80">
+      </a>
+    </div>
+  </div>
 </div>
 
 
