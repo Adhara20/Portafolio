@@ -8,14 +8,14 @@ include('../includes/menu.php');
       <h1 class="titulo text-3xl text-[#26408b] font-semibold">
         Ejercicios Bácicos C++    -
     </h1> 
-    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Propuestas del Profesor</h2>
+    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ejercicios del Profesor</h2>
     </div>
     <hr class="linea-separadora">
 
     <!-- PDF -->
 
     <embed 
-        src="../pdf/Ejercicios Basicos_C++.pdf#zoom=page-width" 
+        src="../pdf/Ejercicios_Basicos_C++.pdf#zoom=page-width" 
         type="application/pdf" 
         width="100%" 
         height="800px">

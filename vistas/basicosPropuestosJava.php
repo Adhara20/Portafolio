@@ -15,7 +15,7 @@ include('../includes/menu.php');
     <!-- PDF -->
 
     <embed 
-        src="../pdf/Programas_Propuestos.pdf#zoom=page-width" 
+        src="../pdf/Programas_Propuestos .pdf#zoom=page-width" 
         type="application/pdf" 
         width="100%" 
         height="800px">

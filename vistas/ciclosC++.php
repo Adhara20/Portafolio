@@ -3,38 +3,34 @@ include('../includes/header.php');
 include('../includes/menu.php');
 ?>
 <!-- Asi deben quedar todos los encabezados -->
-<div class="pt-20 px-6 mb-8 ml-8 mr-8">
-  <h1 class="titulo text-3xl text-[#26408b] font-semibold">
+<div class="pt-20 px-6 mb-8">
+  <h1 class="titulo text-4xl text-[#26408b] font-semibold text-center">
     Ejercicios De Repetición C++
   </h1>
-  <hr class="linea-separadora">
-  <!-- resto del contenido -->
-   <!-- For -->
-   <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo For</h2>
-   <object data="../pdf/for_c++.pdf" type="application/pdf" width="100%" height="600px">
-      <p>No es posible visualizar el PDF. 
-        <a href="../pdf/for_c++.pdf">Descarga el PDF aquí</a>
-      </p>
-    </object>
-   <!-- Fin For -->
-    <hr class="linea-separadora2">
-   <!-- While -->
-    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo While</h2>
-    <object data="../pdf/while_c++.pdf" type="application/pdf" width="100%" height="600px">
-      <p>No es posible visualizar el PDF. 
-        <a href="../pdf/while_c++">Descarga el PDF aquí</a>
-      </p>
-    </object>
 
-    <hr class="linea-separadora2">
-    <h2 class="subTitulo text-3xl text-[#0d0221] font-semibold">Ciclo Do While</h2>
-    <object data="../pdf/dowhile_c++.pdf" type="application/pdf" width="100%" height="600px">
-      <p>No es posible visualizar el PDF. 
-        <a href="../pdf/">Descarga el PDF aquí</a>
-      </p>
-    </object>
-  
+  <div class="flex flex-col md:flex-row justify-center items-center gap-32 mt-10">
+    <div class="mx-6 my-6">
+        <a href="/Portafolio/vistas/forC++.php">
+          <h2 class="text-center mb-2 text-2xl font-medium">Ciclos For</h2>
+        <img src="/Portafolio/img/iconosBtn/c++Archivos.png" alt="" class="size-80">
+        </a>
+    </div>
+    <div class="mx-6 my-6">
+      <a href="/Portafolio/vistas/whileC++.php">
+        <h2 class="text-center mb-2 text-2xl font-medium">Ciclos While</h2>
+        <img src="/Portafolio/img/iconosBtn/c++Archivos.png" alt="" class="size-80">
+      </a>
+    </div>
+    <div class="mx-6 my-6">
+      <a href="/Portafolio/vistas/doWhileC++.php">
+        <h2 class="text-center mb-2 text-2xl font-medium">Ciclos DoWhile</h2>
+        <img src="/Portafolio/img/iconosBtn/c++Archivos.png" alt="" class="size-80">
+      </a>
+    </div>
+  </div>
 </div>
+
+
 <?php
 include('../includes/footer.php');
 ?>

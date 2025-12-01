@@ -10,15 +10,15 @@ include('../includes/menu.php');
 
   <div class="flex flex-col md:flex-row justify-center items-center gap-32 mt-10">
     <div class="mx-6 my-6">
-        <a href="/Portafolio/vistas/basicosPropuestosJava.php">
-          <h2 class="text-center mb-2 text-2xl font-medium">Propuesta Grupal</h2>
-        <img src="/Portafolio/img/iconosBtn/javaArchivos.png" alt="" class="size-80">
+        <a href="/Portafolio/vistas/basicosJavascript.php">
+          <h2 class="text-center mb-2 text-2xl font-medium">Ejercicios del Profesor</h2>
+        <img src="/Portafolio/img/iconosBtn/jsEjecutables.png" alt="" class="size-80">
         </a>
     </div>
     <div class="mx-6 my-6">
-      <a href="/Portafolio/vistas/basicosProfeJava.php">
-        <h2 class="text-center mb-2 text-2xl font-medium">Ejercicios Profesor</h2>
-        <img src="/Portafolio/img/iconosBtn/javaArchivos.png" alt="" class="size-80">
+      <a href="/Portafolio/vistas/basicosJavascriptPropuestos.php">
+        <h2 class="text-center mb-2 text-2xl font-medium">Ejercicios Propuestos (Grupo)</h2>
+        <img src="/Portafolio/img/iconosBtn/jsEjecutables.png" alt="" class="size-80">
       </a>
     </div>
   </div>

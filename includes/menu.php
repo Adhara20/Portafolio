@@ -50,7 +50,7 @@
         Ejercicios JavaScript ▼
       </button>
       <div class="hidden group-hover:flex lg:absolute lg:flex-col bg-white shadow-md border rounded-md mt-1 min-w-[180px]">
-        <a href="/Portafolio/vistas/basicosJavascript.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
+        <a href="/Portafolio/vistas/basicosJs.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
         <a href="/Portafolio/vistas/selectivasJavascript.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
         <a href="/Portafolio/vistas/ciclosJavascript.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
       </div>
@@ -93,7 +93,7 @@
         <span class="font-semibold">Ejercicios JavaScript</span>
         <button id="close-submenu-js" class="text-gray-700 text-xl">&times;</button>
       </div>
-      <a href="/Portafolio/vistas/basicosJavascript.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
+      <a href="/Portafolio/vistas/basicosJs.php" class="px-4 py-2 hover:bg-gray-100">Básicos</a>
       <a href="/Portafolio/vistas/selectivasJavascript.php" class="px-4 py-2 hover:bg-gray-100">Selectivos</a>
       <a href="/Portafolio/vistas/ciclosJavascript.php" class="px-4 py-2 hover:bg-gray-100">Repetición</a>
     </div>
