@@ -14,7 +14,7 @@ include('../includes/menu.php');
     <!-- PDF Responsivo -->
     <div class="w-full flex justify-center">
         <embed 
-            src="../pdf/Listas_Java.pdf#zoom=page-width" 
+            src="../pdf/Listas_propuestas_Java.pdf#zoom=page-width" 
             type="application/pdf" 
             class="w-full max-w-4xl h-[70vh] sm:h-[80vh] border rounded-lg shadow"
         >
@@ -22,7 +22,7 @@ include('../includes/menu.php');
 
     <p class="mt-4 text-center sm:text-left">
         Si no puedes visualizar el PDF, 
-        <a class="text-blue-600 underline" href="../pdf/Listas_Java.pdf" download>
+        <a class="text-blue-600 underline" href="../pdf/Listas_propuestas_Java.pdf" download>
             descárgalo aquí
         </a>.
     </p>
