@@ -102,7 +102,7 @@
     
             
         </div>
-        <div class="grid grid-cols-2 gap-4 mb-4 max-w-md mx-auto mt-4"">
+        <div class="grid grid-cols-2 gap-4 mb-4 max-w-md mx-auto mt-4">
             <div>
 
                 <button class="buttonEjecutar" onclick="ejecutar()">
@@ -110,7 +110,7 @@
                 </button>
             </div>
             <div >
-    <button class="buttonSiguiente w-32 flex" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/Ejercicio2.php'">
+    <button class="buttonSiguiente w-32 flex" onclick="window.location.href='/Portafolio/Basicos_JS_EJECUTABLES/ejercicios_basicos/ejercicio2.php'">
         Siguiente
         <img src="../../img/iconosBtn/sigFlecha.png" alt="siguiente.png" class="size-5 mt-1 ml-1">
     </button>
