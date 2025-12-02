@@ -60,11 +60,13 @@
     <script>
         function ejecutar(){
             var sal = 1500, inc;
+            var menu = "";
             for(var i=1; i<=6; i++){
                 inc = sal * 0.10;
                 sal = sal + inc;
-                alert(`${i}.- El incremento es: ${inc} --> salario : ${sal}`);
+                menu += `${i}.- El incremento es: ${inc} --> salario : ${sal}<br>\n`;
             }
+            alert(menu);
         }
     </script>
 
