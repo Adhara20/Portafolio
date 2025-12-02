@@ -32,9 +32,11 @@
 
                 <span class="text-blue-700">var</span> <span class="text-blue-400">c</span><span class="text-white">=</span> <span class="text-amber-100">parseInt</span><span class="text-purple-600">(</span><span class="text-amber-100">prompt</span><span class="text-purple-600">(</span><span class="text-[#AD6D3B]">"Ingresa la cantidad de ciudades con tiendas"</span><span class="text-purple-600">)</span><span class="text-purple-600">)</span><span class="text-white">;</span><br>
                 <span class="text-blue-700">var</span> <span class="text-blue-400">tc</span><span class="text-white">=</span><span class="text-blue-700">0</span><span class="text-white">;</span><br>
+                <span class="text-blue-700">var</span> <span class="text-blue-400">resultado</span> <span class="text-white">=</span> <span class="text-[#AD6D3B]">"Ejercicio 7\n--------Total de ventas--------\n"</span><span class="text-white">;</span><br>
                 <span class="text-amber-400">for</span><span class="text-purple-600">(</span><span class="text-blue-700">var</span> <span class="text-blue-400">i</span><span class="text-white">=</span><span class="text-blue-700">1</span><span class="text-white">;</span> <span class="text-blue-400">i</span><span class="text-white"><=</span><span class="text-blue-400">c</span><span class="text-white">;</span> <span class="text-blue-400">i</span><span class="text-white">++</span><span class="text-purple-600">)</span><span class="text-purple-600">{</span><br>
                 &nbsp;&nbsp;<span class="text-blue-700">var</span> <span class="text-blue-400">t</span><span class="text-white">=</span> <span class="text-amber-100">parseInt</span><span class="text-purple-600">(</span><span class="text-amber-100">prompt</span><span class="text-purple-600">(</span><span class="text-[#AD6D3B]">"Ingresa la cantidad de tiendas de la ciudad "</span><span class="text-white">+</span><span class="text-blue-400">i</span><span class="text-purple-600">)</span><span class="text-purple-600">)</span><span class="text-white">;</span><br>
                 &nbsp;&nbsp;<span class="text-blue-700">var</span> <span class="text-blue-400">tciudad</span><span class="text-white">=</span><span class="text-blue-700">0</span><span class="text-white">;</span><br>
+                &nbsp;&nbsp;<span class="text-blue-400">resultado</span> <span class="text-white">+=</span> <span class="text-[#AD6D3B]">`\nCiudad ${i}:\n`</span><span class="text-white">;</span><br>
                 &nbsp;&nbsp;<span class="text-amber-400">for</span><span class="text-purple-600">(</span><span class="text-blue-700">var</span> <span class="text-blue-400">o</span><span class="text-white">=</span><span class="text-blue-700">1</span><span class="text-white">;</span> <span class="text-blue-400">o</span><span class="text-white"><=</span><span class="text-blue-400">t</span><span class="text-white">;</span> <span class="text-blue-400">o</span><span class="text-white">++</span><span class="text-purple-600">)</span><span class="text-purple-600">{</span><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-blue-700">var</span> <span class="text-blue-400">n</span><span class="text-white">=</span> <span class="text-amber-100">parseInt</span><span class="text-purple-600">(</span><span class="text-amber-100">prompt</span><span class="text-purple-600">(</span><span class="text-[#AD6D3B]">"Ingresa la cantidad de empleados de la tienda "</span><span class="text-white">+</span><span class="text-blue-400">o</span><span class="text-purple-600">)</span><span class="text-purple-600">)</span><span class="text-white">;</span><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-blue-700">var</span> <span class="text-blue-400">tt</span><span class="text-white">=</span><span class="text-blue-700">0</span><span class="text-white">;</span><br>
@@ -43,10 +45,13 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-blue-400">tt</span><span class="text-white">=</span> <span class="text-blue-400">tt</span><span class="text-white">+</span><span class="text-blue-400">v</span><span class="text-white">;</span><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-purple-600">}</span><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-blue-400">tciudad</span><span class="text-white">=</span> <span class="text-blue-400">tciudad</span> <span class="text-white">+</span> <span class="text-blue-400">tt</span><span class="text-white">;</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-blue-400">resultado</span> <span class="text-white">+=</span> <span class="text-[#AD6D3B]">`  Tienda ${o}: ${tt} ventas\n`</span><span class="text-white">;</span><br>
                 &nbsp;&nbsp;<span class="text-purple-600">}</span><br>
                 &nbsp;&nbsp;<span class="text-blue-400">tc</span><span class="text-white">=</span> <span class="text-blue-400">tc</span> <span class="text-white">+</span> <span class="text-blue-400">tciudad</span><span class="text-white">;</span><br>
+                &nbsp;&nbsp;<span class="text-blue-400">resultado</span> <span class="text-white">+=</span> <span class="text-[#AD6D3B]">`  Total Ciudad ${i}: ${tciudad} ventas\n`</span><span class="text-white">;</span><br>
                 <span class="text-purple-600">}</span><br>
-                <span class="text-blue-700">alert</span><span class="text-purple-600">(</span><span class="text-[#AD6D3B]">"Total de ventas en un solo día: "</span><span class="text-white">+</span><span class="text-blue-400">tc</span><span class="text-purple-600">)</span><span class="text-white">;</span><br>
+                <span class="text-blue-400">resultado</span> <span class="text-white">+=</span> <span class="text-[#AD6D3B]">`\nTotal global: ${tc} ventas`</span><span class="text-white">;</span><br>
+                <span class="text-amber-100">alert</span><span class="text-purple-600">(</span><span class="text-blue-400">resultado</span><span class="text-purple-600">)</span><span class="text-white">;</span><br>
                 
                 <span class="text-blue-700">< /script></span>
             </p>
@@ -72,9 +77,11 @@
         function ejecutar(){
             var c = parseInt(prompt("Ingresa la cantidad de ciudades con tiendas"));
             var tc = 0;
+            var resultado = "Ejercicio 7\n--------Total de ventas--------\n";
             for(var i = 1; i <= c; i++){
                 var t = parseInt(prompt("Ingresa la cantidad de tiendas de la ciudad " + i));
                 var tciudad = 0;
+                resultado += `\nCiudad ${i}:\n`;
                 for(var o = 1; o <= t; o++){
                     var n = parseInt(prompt("Ingresa la cantidad de empleados de la tienda " + o));
                     var tt = 0;
@@ -83,10 +90,13 @@
                         tt = tt+v;
                     }
                     tciudad = tciudad + tt;
+                    resultado += `  Tienda ${o}: ${tt} ventas\n`;
                 }
                 tc = tc + tciudad;
+                resultado += `  Total Ciudad ${i}: ${tciudad} ventas\n`;
             }
-            alert("Total de ventas en un solo día: " + tc);
+            resultado += `\nTotal global: ${tc} ventas`;
+            alert(resultado);
         }
     </script>
 
